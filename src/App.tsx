@@ -1,5 +1,7 @@
+import Container from "./components/Container";
+
 function App() {
-    return <h1>Dictionary Web App</h1>;
+    return <Container></Container>;
 }
 
 export default App;

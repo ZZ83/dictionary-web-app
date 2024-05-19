@@ -1,7 +1,11 @@
 import Container from "./components/Container";
 
 function App() {
-    return <Container></Container>;
+    return (
+        <Container>
+            <header className="bg-cyan-500"></header>
+        </Container>
+    );
 }
 
 export default App;
